@@ -28,9 +28,9 @@
 		</connectorBase>
 	</head>
 	<body>
-		<!------------------------------------------------------------------------->
+		<!-- -->
 		<!--Global Medias-->
-		<!------------------------------------------------------------------------->
+		<!-- -->
 		<media id="settings" type="application/x-ginga-settings">
 			<property name="player_1_hit_ball" value="false"/>
 			<property name="player_2_hit_ball" value="false"/>
@@ -42,9 +42,9 @@
 		<media id="mPlayer1_hit_ball_sound" src="media/player1_hit_ball_sound.mp3"/>
 		<media id="mPlayer2_hit_ball_sound" src="media/player2_hit_ball_sound.mp3"/>
 		<media id="active_tennis" src="active/main.ncl" descriptor="dDev"/>
-		<!------------------------------------------------------------------------->
+		<!-- -->
 		<!--Entry point-->
-		<!------------------------------------------------------------------------->
+		<!-- -->
 		<media id="mBackground" src="media/background.jpg">
 			<property name="height" value="100%"/>
 			<property name="width" value="100%"/>
@@ -53,9 +53,9 @@
 			<property name="zIndex" value="0"/>
 		</media>
 		<port id="p0" component="mBackground"/>
-		<!------------------------------------------------------------------------->
+		<!-- -->
 		<!--Menu-->
-		<!------------------------------------------------------------------------->
+		<!-- -->
 		<!-- Medias-->
 		<media id="mLogo1" src="media/logo_part1.png" descriptor="dTransionBarwipe1s">
 			<property name="height" value="25%"/>
@@ -106,9 +106,9 @@
 			<bind role="start" component="mBall_to_player2_serve"/>
 			<bind role="start" component="active_tennis"/>
 		</link>
-		<!------------------------------------------------------------------------->
+		<!-- -->
 		<!--Ball moviment from player2 to player1-->
-		<!------------------------------------------------------------------------->
+		<!-- -->
 		<!-- Medias-->
 		<media id="mBall_to_player1_inside_player2_area" src="media/ball.png">
 			<property name="height" value="3%"/>
@@ -191,9 +191,9 @@
 				<bindParam name="duration" value="0.5s"/>
 			</bind>
 		</link>
-		<!------------------------------------------------------------------------->
+		<!-- -->
 		<!--Ball moviment from player1 to player2-->
-		<!------------------------------------------------------------------------->
+		<!-- -->
 		<!-- Medias -->
 		<media id="mBall_to_player2_inside_player1_area" src="media/ball.png">
 			<property name="height" value="3%"/>
@@ -276,9 +276,9 @@
 				<bindParam name="duration" value="0.5s"/>
 			</bind>
 		</link>
-		<!------------------------------------------------------------------------->
+		<!-- -->
 		<!--Player1 actions-->
-		<!------------------------------------------------------------------------->
+		<!-- -->
 		<!-- Medias-->
 		<media id="mPlayer1" src="media/player1_ready.png" descriptor="dPlayerFocusBorder">
 			<property name="height" value="25%"/>
@@ -369,9 +369,9 @@
 				<bindParam name="varSet" value="1"/>
 			</bind>
 		</link>
-		<!------------------------------------------------------------------------->
+		<!-- -->
 		Player2 actions
-		<!------------------------------------------------------------------------->
+		<!-- -->
 		<!--Medias-->
 		<media id="mPlayer2" src="media/player2_ready.png" descriptor="dPlayerFocusBorder">
 			<property name="height" value="25%"/>
@@ -460,9 +460,9 @@
 				<bindParam name="varSet" value="3"/>
 			</bind>
 		</link>
-		<!------------------------------------------------------------------------->
+		<!-- -->
 		<!--Player 1 fail hit and show point for player2-->
-		<!------------------------------------------------------------------------->
+		<!-- -->
 		<!-- Medias -->
 		<media id="mPlayer2_point" src="media/bar_win_player2.png" descriptor="dTransionBarwipe_reverse0.5s">
 			<property name="height" value="10%"/>
@@ -501,9 +501,9 @@
 				<bindParam name="varSet" value="3"/>
 			</bind>
 		</link>
-		<!------------------------------------------------------------------------->
+		<!-- -->
 		<!--Player 2 fail hit and show point for player1-->
-		<!------------------------------------------------------------------------->
+		<!-- -->
 		<!-- Medias -->
 		<media id="mPlayer1_point" src="media/bar_win_player1.png" descriptor="dTransionBarwipe0.5s">
 			<property name="height" value="10%"/>
